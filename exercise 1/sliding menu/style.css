@@ -1,0 +1,17 @@
+.list{
+    display: none;
+}
+.side{
+    display: none;
+}
+
+.open.list{
+    display: block;
+}
+
+.arrow::after{
+     content:'▶';
+}
+.open.arrow::after{
+     content:'▼';
+}
