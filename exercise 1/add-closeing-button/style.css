@@ -1,0 +1,14 @@
+section{
+    width: 400px;
+}
+div{
+    border: 5px solid blueviolet;
+    }
+.pane{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    justify-self:flex-start;
+    align-self:flex-start;
+}

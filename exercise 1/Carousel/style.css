@@ -1,0 +1,57 @@
+.window{
+    height: 200px;
+    width: 680px;
+    overflow: hidden;
+    border: 3px solid gray;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.arrow {
+  padding: 0;
+  background: #ddd;
+  border-radius: 15px;
+  border: 1px solid gray;
+  font-size: 24px;
+  line-height: 24px;
+  color: #444;
+  display: block;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+ul {
+  height: 130px;
+  width: max-content;
+  margin-left: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+   transition: 1s all; 
+  
+}
+
+ul img {
+  width: 130px;
+  height: 130px;
+  display: inline-block;
+  padding: 3%;
+  background-color: cornflowerblue;
+  border: 3px solid gray;
+  border-radius: 10%;
+  margin: 1rem;
+   /* removes extra space near images */
+}
+
+ul li {
+  display: inline-block; /* removes extra space between list items
+}
