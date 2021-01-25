@@ -1,0 +1,15 @@
+.field{
+    width: 500px;
+    height: 500px;
+    align-self:center;
+    justify-self: center;
+    border: 15px solid black;
+    background-image: url('./grasTextur.jpg');
+    box-sizing: content-box;
+}
+.boll{
+    position:absolute;
+    top:100px;
+    left: 100px;
+     transition: 1s all; 
+}
