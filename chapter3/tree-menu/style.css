@@ -1,0 +1,6 @@
+.hidden{
+    display: none;
+}
+.tree span:hover {
+      font-weight: bold;
+    }
